@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SwoleTracker</string>
+    <string name="get_wimps_list">Users List</string>
+    <string name="getList">Refresh User List</string>
+    <string name="entityName">Name: </string>
+    <string name="entityAge">Age: </string>
+</resources>

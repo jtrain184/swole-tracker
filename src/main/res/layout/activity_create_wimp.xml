@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".createWimp">
+
+
+    <EditText
+        android:id="@+id/wimpNameInput"
+        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:inputType="text"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:hint="full name"/>
+
+    <EditText
+        android:id="@+id/wimpSexInput"
+        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:inputType="text"
+        android:layout_gravity="center"
+        android:layout_below="@+id/wimpNameInput"
+        android:layout_centerHorizontal="true"
+        android:hint="M/F"/>
+
+    <EditText
+        android:id="@+id/wimpWeightInput"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_gravity="center"
+        android:layout_below="@+id/wimpSexInput"
+        android:layout_centerHorizontal="true"
+        android:hint="weight in lbs"/>
+
+    <EditText
+        android:id="@+id/wimpAgeInput"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_gravity="center"
+        android:layout_below="@+id/wimpWeightInput"
+        android:layout_centerHorizontal="true"
+        android:hint="age in years"/>
+
+    <Button
+        android:id="@+id/submitWimpInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create User"
+        android:layout_below="@+id/wimpAgeInput"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
+

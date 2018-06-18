@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".workoutInformation">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="450dp">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/modifyWorkoutButton"
+            android:layout_alignStart="@+id/modifyWorkoutButton"
+            android:layout_below="@+id/modifyWorkoutButton"
+            android:layout_marginTop="54dp"
+            android:text="Name:     " />
+
+        <Button
+            android:id="@+id/modifyWorkoutButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/te"
+            android:layout_marginLeft="36dp"
+            android:layout_marginStart="36dp"
+            android:layout_toEndOf="@+id/te"
+            android:layout_toRightOf="@+id/te"
+            android:text="Edit Workout" />
+
+        <Button
+            android:id="@+id/deleteButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/te"
+            android:layout_marginEnd="44dp"
+            android:layout_marginRight="44dp"
+            android:text="Delete Workout" />
+
+        <TextView
+            android:id="@+id/workoutNameInputField"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/deleteButton"
+            android:layout_alignStart="@+id/deleteButton"
+            android:layout_alignTop="@+id/textView7"
+            android:text="Entered Name" />
+
+        <TextView
+            android:id="@+id/txtv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView7"
+            android:layout_alignStart="@+id/textView7"
+            android:layout_below="@+id/textView7"
+            android:layout_marginTop="25dp"
+            android:text="Reps: " />
+
+        <TextView
+            android:id="@+id/workoutRepsInputField"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/workoutNameInputField"
+            android:layout_alignStart="@+id/workoutNameInputField"
+            android:layout_alignTop="@+id/txtv1"
+            android:text="Entered Reps" />
+
+        <TextView
+            android:id="@+id/txtv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txtv1"
+            android:layout_alignStart="@+id/txtv1"
+            android:layout_below="@+id/txtv1"
+            android:layout_marginTop="22dp"
+            android:text="Duration: " />
+
+        <TextView
+            android:id="@+id/workoutDurationInputField"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/workoutRepsInputField"
+            android:layout_alignStart="@+id/workoutRepsInputField"
+            android:layout_alignTop="@+id/txtv2"
+            android:text="Entered Duration" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txtv2"
+            android:layout_alignStart="@+id/txtv2"
+            android:layout_below="@+id/txtv2"
+            android:layout_marginTop="26dp"
+            android:text="Weight: " />
+
+        <TextView
+            android:id="@+id/workoutWeightInputField"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/workoutDurationInputField"
+            android:layout_alignStart="@+id/workoutDurationInputField"
+            android:layout_alignTop="@+id/textView6"
+            android:text="Entered Weight" />
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

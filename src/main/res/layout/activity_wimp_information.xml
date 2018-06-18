@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".wimpInformation">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/modifyWimpButton"
+            android:layout_alignStart="@+id/modifyWimpButton"
+            android:layout_below="@+id/modifyWimpButton"
+            android:layout_marginTop="25dp"
+            android:text="Name:     " />
+
+        <Button
+            android:id="@+id/addWorkoutButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="36dp"
+            android:layout_marginStart="36dp"
+            android:layout_centerHorizontal="true"
+            android:layout_toLeftOf="@+id/deleteButton"
+            android:text="Add Workout" />
+
+
+        <Button
+            android:id="@+id/modifyWimpButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/te"
+            android:layout_marginLeft="36dp"
+            android:layout_marginStart="40dp"
+            android:layout_toEndOf="@+id/te"
+            android:layout_toLeftOf="@+id/addWorkoutButton"
+            android:text="Edit Info" />
+
+        <Button
+            android:id="@+id/deleteButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/te"
+            android:layout_marginEnd="35dp"
+            android:layout_marginRight="35dp"
+            android:text="Delete User" />
+
+
+        <TextView
+            android:id="@+id/wimpNameTxtViewBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView7"
+            android:layout_toEndOf="@+id/modifyWimpButton"
+            android:layout_toRightOf="@+id/modifyWimpButton" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView7"
+            android:layout_alignStart="@+id/textView7"
+            android:layout_below="@+id/textView7"
+            android:layout_marginTop="15dp"
+            android:text="Sex: " />
+
+        <TextView
+            android:id="@+id/wimpSexTxtView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/wimpNameTxtViewBox"
+            android:layout_alignStart="@+id/wimpNameTxtViewBox"
+            android:layout_alignTop="@+id/textView9" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView9"
+            android:layout_alignStart="@+id/textView9"
+            android:layout_below="@+id/textView9"
+            android:layout_marginTop="15dp"
+            android:text="Weight:     " />
+
+        <TextView
+            android:id="@+id/wimpWeightTxtView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/wimpSexTxtView"
+            android:layout_alignStart="@+id/wimpSexTxtView"
+            android:layout_alignTop="@+id/textView11" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView11"
+            android:layout_alignStart="@+id/textView11"
+            android:layout_below="@+id/textView11"
+            android:layout_marginTop="15dp"
+            android:text="Age:     " />
+
+        <TextView
+            android:id="@+id/wimpAgeTxtView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/wimpWeightTxtView"
+            android:layout_alignStart="@+id/wimpWeightTxtView"
+            android:layout_alignTop="@+id/textView15" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/wimpAgeTxtView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:text="Workouts"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+    <ListView
+        android:id="@+id/workoutListWimpInfo"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="18dp" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/wimp_entity_layout">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical"
+        android:id="@+id/layoutForWimpEntity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/wimp_name"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/wimp_sex"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/wimp_weight"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/wimp_age"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+
+    <!--
+
+    <ListView
+        android:id="@+id/dogsOwnedListView"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_below="@+id/topPaneLayout">
+    </ListView>
+
+    -->
+
+</LinearLayout>

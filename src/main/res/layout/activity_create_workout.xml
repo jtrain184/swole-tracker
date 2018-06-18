@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".createWorkout">
+
+
+    <EditText
+        android:id="@+id/workoutNameInput"
+        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:inputType="text"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:hint="workout name"/>
+
+    <EditText
+        android:id="@+id/workoutRepsInput"
+        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:inputType="text"
+        android:layout_gravity="center"
+        android:layout_below="@+id/workoutNameInput"
+        android:layout_centerHorizontal="true"
+        android:hint="reps"/>
+
+    <EditText
+        android:id="@+id/workoutDurationInput"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_gravity="center"
+        android:layout_below="@+id/workoutRepsInput"
+        android:layout_centerHorizontal="true"
+        android:hint="duration in min"/>
+
+    <EditText
+        android:id="@+id/workoutWeightInput"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_gravity="center"
+        android:layout_below="@+id/workoutDurationInput"
+        android:layout_centerHorizontal="true"
+        android:hint="weight in lbs"/>
+
+    <Button
+        android:id="@+id/submitWorkoutInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Submit Workout" />
+
+
+</RelativeLayout>
+
