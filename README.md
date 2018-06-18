@@ -8,7 +8,7 @@ Compile using Android studio.
 
 REST backened API url:  https://swole-tracker.appspot.com/
 
-See REST documentation for futher info on valid API calls.
+See User Guide for information on valid API calls.
 
 ## Built With
 
